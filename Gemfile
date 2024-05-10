@@ -335,7 +335,7 @@ group :development, :test do
   gem 'brakeman', '~> 6.1.0'
 
   # i18n-tasks helps find and manage missing and unused translations.
-  gem 'i18n-tasks', '~> 1.0.13'
+  gem 'i18n-tasks', '~> 1.0.14'
 end
 
 gem 'bootsnap', '~> 1.17.0', require: false

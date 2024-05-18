@@ -262,8 +262,8 @@ group :test do
   gem 'capybara_accessible_selectors', git: 'https://github.com/citizensadvice/capybara_accessible_selectors', branch: 'main'
   gem 'capybara-screenshot', '~> 1.0.17'
   gem 'cuprite', '~> 0.15.0'
-  gem 'selenium-devtools'
-  gem 'selenium-webdriver', '~> 4.16.0'
+  gem 'selenium-devtools', '>= 0.121.0'
+  gem 'selenium-webdriver', '~> 4.17.0'
 
   gem 'fuubar', '~> 2.5.0'
   gem 'timecop', '~> 0.9.0'
@@ -271,7 +271,7 @@ group :test do
   # Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.
   gem 'vcr'
   # Mock backend requests (for ruby tests)
-  gem 'webmock', '~> 3.12', require: false
+  gem 'webmock', '~> 3.20', '>= 3.20.0', require: false
 
   # Mock selenium requests through proxy (for feature tests)
   gem 'puffing-billy', '~> 4.0.0'
@@ -321,11 +321,11 @@ group :development, :test do
   gem 'pry-doc'
 
   # ruby linting
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 1.60.1', require: false
   gem 'rubocop-inflector', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop-performance', '>= 1.21.0', require: false
+  gem 'rubocop-rails', '>= 2.24.0', require: false
+  gem 'rubocop-rspec', '>= 2.27.0', require: false
 
   # erb linting
   gem "erb_lint", require: false
@@ -349,7 +349,7 @@ gem 'roar', '~> 1.2.0'
 gem 'rack-cors', '~> 2.0.0'
 
 # Gmail API
-gem 'google-apis-gmail_v1', require: false
+gem 'google-apis-gmail_v1', '>= 0.38.0', require: false
 gem 'googleauth', require: false
 
 # Required for contracts

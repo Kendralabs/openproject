@@ -39,7 +39,7 @@ gem 'activemodel-serializers-xml', '~> 1.0.1'
 gem 'activerecord-import', '~> 1.5.0'
 gem 'activerecord-session_store', '~> 2.1.0'
 gem 'ox'
-gem 'rails', '~> 7.0', '>= 7.0.3.1'
+gem 'rails', '~> 7.0', '>= 7.0.8.3'
 gem 'responders', '~> 3.0'
 
 gem 'ffi', '~> 1.15'
@@ -95,7 +95,7 @@ gem 'escape_utils', '~> 1.3'
 # Syntax highlighting used in html-pipeline with rouge
 gem 'rouge', '~> 4.2.0'
 # HTML sanitization used for html-pipeline
-gem 'sanitize', '~> 6.1.0'
+gem 'sanitize', '~> 6.1.1'
 # HTML autolinking for mails and urls (replaces autolink)
 gem 'rinku', '~> 2.0.4', require: %w[rinku rails_rinku]
 # Version parsing with semver

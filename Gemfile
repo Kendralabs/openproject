@@ -261,7 +261,7 @@ group :test do
   gem 'capybara', '~> 3.39.0'
   gem 'capybara_accessible_selectors', git: 'https://github.com/citizensadvice/capybara_accessible_selectors', branch: 'main'
   gem 'capybara-screenshot', '~> 1.0.17'
-  gem 'cuprite', '~> 0.15.0'
+  gem 'cuprite', '~> 0.15.1'
   gem 'selenium-devtools'
   gem 'selenium-webdriver', '~> 4.16.0'
 
@@ -341,7 +341,7 @@ end
 gem 'bootsnap', '~> 1.17.0', require: false
 
 # API gems
-gem 'grape', '~> 2.0.0'
+gem 'grape', '~> 2.1.0'
 gem 'grape_logging', '~> 1.8.4'
 gem 'roar', '~> 1.2.0'
 

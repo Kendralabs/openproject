@@ -328,13 +328,13 @@ group :development, :test do
   gem "pry-rescue", "~> 1.6.0"
 
   # ruby linting
-  gem "rubocop", require: false
+  gem "rubocop", ">= 1.65.0", require: false
   gem "rubocop-capybara", require: false
   gem "rubocop-factory_bot", require: false
   gem "rubocop-openproject", require: false
   gem "rubocop-performance", require: false
   gem "rubocop-rails", require: false
-  gem "rubocop-rspec", require: false
+  gem "rubocop-rspec", ">= 3.0.3", require: false
   gem "rubocop-rspec_rails", require: false
 
   # erb linting

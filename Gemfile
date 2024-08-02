@@ -328,7 +328,7 @@ group :development, :test do
   gem "pry-rescue", "~> 1.6.0"
 
   # ruby linting
-  gem "rubocop", require: false
+  gem "rubocop", ">= 1.65.1", require: false
   gem "rubocop-capybara", require: false
   gem "rubocop-factory_bot", require: false
   gem "rubocop-openproject", require: false
@@ -338,7 +338,7 @@ group :development, :test do
   gem "rubocop-rspec_rails", require: false
 
   # erb linting
-  gem "erb_lint", require: false
+  gem "erb_lint", ">= 0.6.0", require: false
   gem "erblint-github", require: false
 
   # Brakeman scanner
